@@ -1,0 +1,252 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 9px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    height: 110px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-image {
+    width: 250px;
+    height: 110px;
+  
+    margin-left: 10rem;
+}
+
+
+
+.bold {
+    font-weight: bold;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #555;
+    font-size: 15px;
+    margin-left: 30rem;
+  
+    color: #1d3f72;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.navbar-button .doctor-pool-button {
+    background-color: #1a3862;
+    color: white;
+    border: none;
+    padding: 12px 40px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 90px; 
+    white-space: nowrap; 
+    margin-right: 10rem;
+}
+
+
+.navbar-button .doctor-pool-button:hover {
+    background-color: #e9edf1;
+}
+
+
+.navbar-button .doctor-pool-button p {
+    margin: 0;
+}
+
+
+.navbar-button .doctor-pool-icon {
+    fill: white;
+    width: 20px;
+    height: 20px;
+   
+}
+
+
+
+.doctor-pool-button:hover {
+    background-color: #d5dfeb;
+    color:  #1d3f72;
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+    
+    .navbar-logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo-image {
+        width: 100%;
+        height: 100%;
+      
+        margin-left: 0rem !important;
+    }
+    
+    
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #555;
+        font-size: 20px;
+        margin-left: 0rem !important;
+        color: #1d3f72;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+    
+    .menu-icon {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .navbar-button .doctor-pool-button {
+        background-color: #1d3f72;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        border-radius: 7px;
+        font-size: 18px;
+        margin-right: 10rem;
+        font-family: 'Open Sans', sans-serif;
+    
+        
+    
+    }
+    
+    .doctor-pool-button:hover {
+        background-color: #d5dfeb;
+        color:  #1d3f72;
+    }
+    
+    .user-icon {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+    
+    .navbar-logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo-image {
+        width: 100%;
+        height: 100%;
+      
+        margin-left: 0rem !important;
+    }
+    
+    
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #555;
+        font-size: 20px;
+        margin-left: 0rem !important;
+        color: #1d3f72;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+    
+    .menu-icon {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .navbar-button .doctor-pool-button {
+        background-color: #1d3f72;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        border-radius: 7px;
+        font-size: 18px;
+        margin-right: 10rem;
+        font-family: 'Open Sans', sans-serif;
+    
+        
+    
+    }
+    
+    .doctor-pool-button:hover {
+        background-color: #d5dfeb;
+        color:  #1d3f72;
+    }
+    
+    .user-icon {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+

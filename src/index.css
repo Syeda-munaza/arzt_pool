@@ -1,0 +1,28 @@
+.print {
+  position: relative;
+}
+
+.fingerprint-button {
+  width: 64px;
+  height: 64px;
+  background-color: #004059;
+  border-radius: 50%;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  z-index: 9999;
+  bottom: 40px;
+  left: 40px;
+}
+.fingerprint-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    /* width: 100%; */
+    
+}
